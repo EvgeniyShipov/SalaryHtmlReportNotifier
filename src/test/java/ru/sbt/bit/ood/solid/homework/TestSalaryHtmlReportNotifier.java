@@ -26,6 +26,7 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.Month;
 
+@SuppressWarnings("Since15")
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(SalaryHtmlReportNotifier.class)
 public class TestSalaryHtmlReportNotifier {
